@@ -1,5 +1,5 @@
-const express = require('express');
-const xss = require('xss');
+const express = require('./node_modules/express');
+const xss = require('./node_modules/xss');
 const path = require('path');
 const MainService = require('./main-service');
 const { requireAuth } = require('../middleware/jwt-auth');
